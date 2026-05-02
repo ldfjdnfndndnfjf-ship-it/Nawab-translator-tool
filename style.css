@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex; align-items: center; justify-content: center; min-height: 100vh; background: #0f172a; padding: 10px;
+}
+.container{
+  max-width: 690px; width: 100%; padding: 30px; background: #1e293b; border-radius: 12px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); border: 1px solid #334155;
+}
+header h1{
+  font-size: 28px; font-weight: 600; text-align: center; color: #38bdf8;
+}
+.dev-tag{
+  text-align: center; color: #94a3b8; font-size: 14px; margin-bottom: 20px; font-weight: 500;
+}
+.wrapper{
+  border-radius: 7px; border: 1px solid #334155; padding: 20px;
+}
+.text-input{
+  display: flex; border-bottom: 1px solid #334155;
+}
+.text-input textarea{
+  height: 250px; width: 100%; border: none; outline: none; resize: none; background: transparent; font-size: 18px; padding: 10px 15px; color: #f8fafc;
+}
+.text-input .to-text{
+  border-left: 1px solid #334155;
+}
+.controls, .row, .icons, .icons i{
+  display: flex; align-items: center; justify-content: space-between;
+}
+.controls{
+  list-style: none; margin: 20px 0;
+}
+.controls .row select{
+  color: #f8fafc; background: #334155; border: none; outline: none; font-size: 16px; border-radius: 5px; padding: 8px 10px; cursor: pointer;
+}
+.controls .exchange{
+  color: #38bdf8; font-size: 16px; cursor: pointer; transition: transform 0.2s ease;
+}
+.controls .exchange:active{
+  transform: scale(0.9);
+}
+button{
+  width: 100%; padding: 14px; outline: none; border: none; color: #fff; cursor: pointer; margin-top: 10px; font-size: 17px; border-radius: 5px; background: #38bdf8; transition: 0.3s;
+}
+button:hover{
+  background: #0ea5e9;
+}
